@@ -1,5 +1,5 @@
-import './splide/splide.min.css';
-import Splide from './splide/splide.min.js';
+import '../../splide/splide.min.css';
+import Splide from '../../splide/splide.min.js';
 
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileMenu = document.querySelector('.mobile-menu');
