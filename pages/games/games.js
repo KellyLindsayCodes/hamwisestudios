@@ -1,7 +1,7 @@
-import '@splidejs/splide/css';
-import Splide from '@splidejs/splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'; 
-import { Intersection } from '@splidejs/splide-extension-intersection';
+import './splide/splide.min.css';
+import Splide from './splide/splide.min.js';
+import { AutoScroll } from './splide/splide-extension-auto-scroll.min.js'; 
+import { Intersection } from './splide/splide-extension-intersection.min.js';
 
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileMenu = document.querySelector('.mobile-menu');
